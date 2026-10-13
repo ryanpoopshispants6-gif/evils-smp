@@ -21,10 +21,10 @@ jobs:
           cache: maven
 
       - name: Build plugin
-        run: mvn --batch-mode clean package
+        run: mvn -f "EvilSMPAbilities-Restrictor-XPBottles 2/pom.xml" --batch-mode clean package
 
       - name: Upload JAR
         uses: actions/upload-artifact@v4
         with:
           name: EvilSMPAbilities-jar
-          path: target/EvilSMPAbilities.jar
+          path: "EvilSMPAbilities-Restrictor-XPBottles 2/target/EvilSMPAbilities.jar"
