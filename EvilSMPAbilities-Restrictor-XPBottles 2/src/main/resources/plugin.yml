@@ -1,0 +1,12 @@
+name: EvilSMPAbilities
+version: 1.0.0
+main: com.evilsmp.abilities.EvilSMPAbilitiesPlugin
+api-version: '1.21'
+commands:
+  evilsmpitems:
+    description: Give Evil SMP custom ability items
+    usage: /evilsmpitems give <player> <tickle|suppressor|armourbreaker|restrictor>
+    permission: evilsmpabilities.admin
+permissions:
+  evilsmpabilities.admin:
+    default: op

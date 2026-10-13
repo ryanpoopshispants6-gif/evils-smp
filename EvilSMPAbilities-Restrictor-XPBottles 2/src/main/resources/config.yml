@@ -1,0 +1,11 @@
+tickle-feather:
+  slow-falling-seconds: 180
+  cooldown-seconds: 300
+ability-suppressor:
+  duration-seconds: 300
+  temporary-max-health: 20.0
+armour-breaker:
+  armour-reduction: 8.0
+  duration-seconds: 10
+restrictor:
+  duration-seconds: 300
